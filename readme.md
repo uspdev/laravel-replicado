@@ -6,7 +6,7 @@
 
 Use conforme a documentação do replicado.
 
-## Configuração padrão do `.env.example`
+### Configuração padrão do `.env.example`
 
 ```sh
 # REPLICADO #########################################
