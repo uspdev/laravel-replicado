@@ -1,5 +1,7 @@
 # Wrapper do Uspdev\Replicado para uso com laravel
 
+*** Este é um projeto em elaboração. ***
+
 ## Instalação e configuração
 
     composer require uspdev/laravel-replicado
