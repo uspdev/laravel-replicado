@@ -1,6 +1,6 @@
 # Wrapper do Uspdev\Replicado para uso com laravel
 
-*** Este é um projeto em elaboração. ***
+Este projeto cria um arquivo de configuração para o replicado de forma 
 
 ## Instalação e configuração
 
