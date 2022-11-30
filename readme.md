@@ -11,7 +11,8 @@ Use conforme a documentação do replicado.
 ### Configuração padrão do `.env.example`
 
 ```sh
-# REPLICADO #########################################
+# LARAVEL-REPLICADO #########################################
+# https://github.com/uspdev/laravel-replicado
 # https://github.com/uspdev/replicado
 
 REPLICADO_HOST=
@@ -23,21 +24,21 @@ REPLICADO_PASSWORD=
 # Código da unidade
 REPLICADO_CODUNDCLG=
 
-# Todos os códigos de colegiados da unidade (default=REPLICADO_CODUNDCLG)
+# Todos os códigos de colegiados da unidade
 REPLICADO_CODUNDCLGS=${REPLICADO_CODUNDCLG}
 
-# Caminho do log
-REPLICADO_PATHLOG="../storage/logs/replicado.log"
+# Caminho do log (default=base_path('/storage/logs/replicado.log'))
+#REPLICADO_PATHLOG=
 
 # Converte de/para UTF-8 (default=1)
-REPLICADO_SYBASE=1
+#REPLICADO_SYBASE=
 
 # habilita o uso do cache https://github.com/uspdev/cache (default=0)
 # É necessário configurar a biblioteca antes de usar
-REPLICADO_USAR_CACHE=0
+#REPLICADO_USAR_CACHE=
 
 # Se true mostra o retorno de erros do BD (default=APP_DEBUG)
-REPLICADO_DEBUG=${APP_DEBUG}
+#REPLICADO_DEBUG=
 ```
 
 A explicação de cada variável está no projeto [Uspdev\\Replicado](https://github.com/uspdev/replicado).
