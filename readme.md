@@ -27,7 +27,7 @@ REPLICADO_CODUNDCLG=
 # Todos os códigos de colegiados da unidade
 REPLICADO_CODUNDCLGS=${REPLICADO_CODUNDCLG}
 
-# Caminho do log (default=base_path('/storage/logs/replicado.log'))
+# Caminho do log (default=base_path('storage/logs/replicado.log'))
 #REPLICADO_PATHLOG=
 
 # Converte de/para UTF-8 (default=1)
