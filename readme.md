@@ -24,18 +24,24 @@ REPLICADO_PASSWORD=
 # Código da unidade
 REPLICADO_CODUNDCLG=
 
-# Todos os códigos de colegiados da unidade
+# Todos os códigos de colegiados da unidade, separados por vírgula
 REPLICADO_CODUNDCLGS=${REPLICADO_CODUNDCLG}
 
 # Caminho do log (default=base_path('storage/logs/replicado.log'))
 #REPLICADO_PATHLOG=
 
-# Converte de/para UTF-8 (default=1)
+# Converte de/para UTF-8 (default=true)
 #REPLICADO_SYBASE=
 
 # habilita o uso do cache https://github.com/uspdev/cache (default=0)
 # É necessário configurar a biblioteca antes de usar
 #REPLICADO_USAR_CACHE=
+
+# Tempo de expiração do cache (default=-1 -> default da biblioteca=1440 (s))
+#REPLICADO_CACHE_EXPIRY=
+
+# Tamanho mínimo para cachear (default=-1 -> default da bibloteca=32 (bytes))
+#REPLICADO_CACHE_SMALL=
 
 # Se true mostra o retorno de erros do BD (default=APP_DEBUG)
 #REPLICADO_DEBUG=
