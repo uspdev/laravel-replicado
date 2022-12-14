@@ -10,7 +10,9 @@ return [
     'codundclg' => env('REPLICADO_CODUNDCLG'),
     'codundclgs' => env('REPLICADO_CODUNDCLGS'),
     'pathlog' => env('REPLICADO_PATHLOG', base_path('storage/logs/replicado.log')),
-    'sybase' => env('REPLICADO_SYBASE', 1),
-    'usarCache' => env('REPLICADO_USAR_CACHE', 0),
-    'debug' => env('REPLICADO_DEBUG', config('app.debug')),
+    'sybase' => (bool) env('REPLICADO_SYBASE', true),
+    'usarCache' => (bool) env('REPLICADO_USAR_CACHE', false),
+    'cacheExpiry' => (int) env('REPLICADO_CACHE_EXPIRY', -1),
+    'cacheSmall' => (int) env('REPLICADO_CACHE_SMALL', -1),
+    'debug' => (bool) env('REPLICADO_DEBUG', config('app.debug')),
 ];
