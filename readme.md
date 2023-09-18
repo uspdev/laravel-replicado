@@ -33,7 +33,7 @@ REPLICADO_CODUNDCLGS=${REPLICADO_CODUNDCLG}
 # Converte de/para UTF-8 (default=true)
 #REPLICADO_SYBASE=
 
-# habilita o uso do cache https://github.com/uspdev/cache (default=0)
+# habilita o uso do cache https://github.com/uspdev/cache (default=false)
 # É necessário configurar a biblioteca antes de usar
 #REPLICADO_USAR_CACHE=
 
@@ -45,6 +45,10 @@ REPLICADO_CODUNDCLGS=${REPLICADO_CODUNDCLG}
 
 # Se true mostra o retorno de erros do BD (default=APP_DEBUG)
 #REPLICADO_DEBUG=
+
+# Nível de detalhes a ser feito log: 1 = somente erros (default), 2 = gera log das queries executadas
+#REPLICADO_DEBUG_LEVEL=
+
 ```
 
 A explicação de cada variável está no projeto [Uspdev\\Replicado](https://github.com/uspdev/replicado).

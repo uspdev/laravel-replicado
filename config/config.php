@@ -15,4 +15,5 @@ return [
     'cacheExpiry' => (int) env('REPLICADO_CACHE_EXPIRY', -1),
     'cacheSmall' => (int) env('REPLICADO_CACHE_SMALL', -1),
     'debug' => (bool) env('REPLICADO_DEBUG', config('app.debug')),
+    'debugLevel' => (int) env('REPLICADO_DEBUG_LEVEL', 1),
 ];
