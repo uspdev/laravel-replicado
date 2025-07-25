@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "uspdev/replicado": "^1.16"
+        "uspdev/replicado": "^1"
     },
     "autoload": {
         "psr-4": {
