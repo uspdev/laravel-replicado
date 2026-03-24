@@ -11,8 +11,9 @@ return [
     'pathlog' => env('REPLICADO_PATHLOG', base_path('storage/logs/replicado.log')),
     'sybase' => (bool) env('REPLICADO_SYBASE', true),
     'usarCache' => (bool) env('REPLICADO_USAR_CACHE', false),
-    'cacheExpiry' => (int) env('REPLICADO_CACHE_EXPIRY', -1),
+    'cacheExpiry' => (int) env('REPLICADO_CACHE_EXPIRY', 4 * 60 * 60),
     'cacheSmall' => (int) env('REPLICADO_CACHE_SMALL', -1),
     'debug' => (bool) env('REPLICADO_DEBUG', config('app.debug')),
     'debugLevel' => (int) env('REPLICADO_DEBUG_LEVEL', 1),
+    'fake' => (bool) env('REPLICADO_FAKE', false),
 ];

@@ -37,10 +37,10 @@ REPLICADO_CODUNDCLGS=${REPLICADO_CODUNDCLG}
 # É necessário configurar a biblioteca antes de usar
 #REPLICADO_USAR_CACHE=
 
-# Tempo de expiração do cache (default=-1 -> default da biblioteca=1440 (s))
+# Tempo de expiração do cache (default=14400 (s) = 4 horas)
 #REPLICADO_CACHE_EXPIRY=
 
-# Tamanho mínimo para cachear (default=-1 -> default da bibloteca=32 (bytes))
+# Tamanho mínimo para cachear (default=-1 - sem tamanho mínimo)
 #REPLICADO_CACHE_SMALL=
 
 # Se true mostra o retorno de erros do BD (default=APP_DEBUG)
@@ -48,6 +48,10 @@ REPLICADO_CODUNDCLGS=${REPLICADO_CODUNDCLG}
 
 # Nível de detalhes a ser feito log: 1 = somente erros (default), 2 = gera log das queries executadas
 #REPLICADO_DEBUG_LEVEL=
+
+# Habilita dados fake para testes (default=false) nos métodos suportados. (default REPLICADO_FAKE=false
+#REPLICADO_FAKE=false
+
 
 ```
 
